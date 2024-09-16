@@ -35,5 +35,12 @@ public class AddressBook {
         for (BuddyInfo buddy : addressBook.buddys) {
             System.out.println(buddy.getName());
         }
+
+        BuddyInfo buddy3 = new BuddyInfo("Tom","Carleton",613);
+        AddressBook addressBook1 = new AddressBook();
+        addressBook1.addBuddy(buddy3);
+        for (BuddyInfo buddy : addressBook1.buddys) {
+            System.out.println(buddy.getName());
+        }
     }
 }
