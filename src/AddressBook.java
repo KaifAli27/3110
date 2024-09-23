@@ -31,7 +31,7 @@ public class AddressBook {
 
 
         addressBook.addBuddy(buddy2);
-        System.out.println("editing on git test");
+        System.out.println("editing on git teggst");
 
 
         System.out.println("Address Book");
