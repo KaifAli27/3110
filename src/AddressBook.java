@@ -23,11 +23,15 @@ public class AddressBook {
 
     public static void main(String[] args) {
         AddressBook addressBook = new AddressBook();
+
         BuddyInfo buddy1 = new BuddyInfo("Homer","19 Homerson St", 513311043);
+        addressBook.addBuddy(buddy1);
+        addressBook.removeBuddy(0);
         BuddyInfo buddy2 = new BuddyInfo("Hammy","24 Homerson St", 513311078);
 
-        addressBook.addBuddy(buddy1);
+
         addressBook.addBuddy(buddy2);
+        System.out.println("COMMIT TEST");
 
 
         System.out.println("Address Book");
