@@ -21,6 +21,13 @@ public class AddressBook {
         return null;
     }
 
+    public BuddyInfo getBuddy(int index) {
+        if (index >= 0 && index < this.buddys.size()) {
+            return this.buddys.get(index);
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
         AddressBook addressBook = new AddressBook();
 
